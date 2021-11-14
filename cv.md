@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
    <title>CV</title>
    <meta name="viewport" , width="device-width" , scalable="yes">
