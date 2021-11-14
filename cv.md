@@ -34,9 +34,13 @@ At the moment I work as a freelancer in web design</p>
 <li>Studying to be a web developer at RSSchool</li>
 </ul>
 </p>
+<h2>Languages</h2>
 <p>Eng level A2</p>
 <h3><i>Contacts</i></h3>
 <a href="http://surl.li/anhmr">GitHub</a>
+<br>
 <a href="https://instagram.com/17.cloud.s?utm_medium=copy_link">Inst</a>
-Email: prosvirnin0121@gmail.com  
+<br>
+Email: prosvirnin0121@gmail.com
+<br>
 Number: 8(952)-363-9759
