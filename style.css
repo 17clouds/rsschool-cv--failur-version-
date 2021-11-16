@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Yuji+Syuku&display=swap");
+
+@media (max-width: 700px) {
+   .info {
+      display: block;
+      text-align: center;
+   }
+}
+
+body {
+   background-color: #cacaca;
+   color: #0f141e;
+
+   font-size: 16px;
+   font-weight: normal;
+   font-family: "Yuji Syuku", serif;
+   font-family: "Rubik", sans-serif;
+}
+
+h3 {
+   color: #4e5053;
+   margin-bottom: 5px;
+}
+
+a {
+   color: rgb(151, 91, 91);
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.avatar {
+   width: 300px;
+   border-radius: 5%;
+   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+   color: #55575c;
+   margin: 0;
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+}
+
+.card {
+   padding: 15px 20px;
+   margin-bottom: 20px;
+   border-radius: 15px;
+}
+
+.bg-1 {
+   background: #556a942a;
+}
+
+.bg-2 {
+   background: #556a942a;
+}
+
+.bg-3 {
+   background: #556a942a;
+}
+
+.bg-4 {
+   background: #556a942a;
+}
+
+.bg-5 {
+   background: #556a942a;
+}
+
+.bg-6 {
+   background: #556a942a;
+}
+
+.table td {
+   padding-bottom: 10px;
+}
+
+.table {
+   width: 100%;
+}
+
+.table td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5) {
+   color: #444549;
+}
+ 
+.contact {
+   text-align: center;
+}
+
+.contact h3 {
+   color: #373c46 ;
+}
+
+.form-group label {
+   display: block;
+   color: #55575c;
+   font-size: 14px;
+   padding-top: 12px;
+}
+
+.form-group input, 
+.form-group textarea {
+   /* width: 100%; */
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   border-bottom: 2px solid rgb(182, 177, 177);
+   color: #000;
+   padding: 4px 0px 10px;
+   outline: none;
+   font-family: inherit;
+}
+
+.button {
+   background-color: #556a942a;
+   padding: 10px 20px;
+   color: rgb(82, 82, 82);
+   border: none;
+   border-radius: 100%;
+   font-family: inherit;
+   cursor: pointer;
+}
+
+.button:hover {
+   opacity: 0.9;
+}
