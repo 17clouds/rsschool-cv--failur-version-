@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>CV</title>
+   <meta charset="UTF-8">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+   <link href="style.css" rel="stylesheet" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+   <header>
+      <nav class="nav">
+         <ul class="nav__list">
+            <li class="nav__item"><a href="#about-me">About me</a></li>
+            <li class="nav__item"><a href="#skills">Skills</a></li>
+            <li class="nav__item"><a href="#code-examples">Code Examples</a></li>
+            <li class="nav__item"><a href="#experience">Experience</a></li>
+            <li class="nav__item"><a href="#education">Education</a></li>
+            <li class="nav__item"><a href="#languages">Languages</a></li>
+         </ul>
+      </nav>
+
+   </header>
+   <div class="container">
+      <div class="info">
+         <table>
+            <tr>
+               <td>
+                  <figure>
+                     <img src="/assets/img/Ресурс_1@4x-8.jpg" alt="me" class="avatar" />
+                  </figure>
+               </td>
+               <td>
+                  <h1>Prosvirnin Dmitrii Nikolaevich</h1>
+                  <p><strong>Web Developer</strong></p>
+                  <h3>Contacts</h3>
+                  <a href="https://github.com/17clouds">GitHub</a>
+                  .
+                  <a href="https://www.instagram.com/17.cloud.s/?hl=ru">Inst</a>
+                  <br>
+                  Email: prosvirnin0121@gmail.com
+                  <br>
+                  Number: 8(952)-363-9759
+               </td>
+            </tr>
+         </table>
+      </div>
+      <main>
+
+         <hr>
+         <div class="card bg-1" data-aos="zoom-out-up" id="about-me">
+            <h2><i>About me</i></h2>
+            <p>Novice web developer in the frontend direction
+               I have no relevant IT experience
+               I really want to develop in this area
+               I have experience in sales and service
+               At the moment I work as a freelancer in web design</p>
+            <p>Coding taught me to think differently. Gave opportunity to have a better life.</p>
+         </div>
+         <div class="card bg-2" data-aos="zoom-out-up" id="skills">
+            <h2>Skills</h2>
+            <table class="table">
+               <tr>
+                  <th>Techonolgies</th>
+                  <td>HTML</td>
+                  <td>CSS</td>
+                  <td>JScript</td>
+                  <td>React</td>
+               </tr>
+               <tr>
+                  <th>Ability</th>
+                  <td>proactivity</td>
+                  <td>effective</td>
+                  <td>creativity</td>
+                  <td>punctuality</td>
+               </tr>
+            </table>
+         </div>
+         <div class="card bg-3" data-aos="zoom-out-up" id="code-examples">
+            <h2>Code Examples</h2>
+            <pre>function slidesPlugin(activeSlide = 0) {
+            const slides = document.querySelectorAll('.slide')
+            
+            slides[activeSlide].classList.add('active')
+            
+            for (const slide of slides) {
+            slide.addEventListener('click', () => {
+            clearActiveClasses()
+            slide.classList.add('active')
+            })
+            }
+            function clearActiveClasses() {
+            slides.forEach((slide) => {
+            slide.classList.remove('active')
+            })
+            }
+            }
+            
+            slidesPlugin(2) </pre>
+         </div>
+         <div class="card bg-4" data-aos="zoom-out-up" id="experience">
+            <h2>Experience</h2>
+            <ul class="table">
+               <li>Worked as a freelance web designer</li>
+               <li>Studying to be a web developer at RSSchool</li>
+            </ul>
+         </div>
+         <div class="card bg-5" data-aos="zoom-out-up" id="education">
+            <h2>Education</h2>
+            <p>Graduated from college as a jeweler.</p>
+         </div>
+         <div class="card bg-6" data-aos="zoom-out-up" id="languages">
+            <h2>Languages</h2>
+            <p>Eng level A2</p>
+         </div>
+         <div class="card bg-7" data-aos="zoom-out-up" id="courses">
+            <h2>Courses:</h2>
+            <ul>
+               <li>JS, CSS, HTML, Git video courses on YouTube </li>
+               <li>JavaScript <a href="https://learn.javascript.ru">/ learn.javascript.ru</a></li>
+               <li>FreeCodeCamp Responsive Web Design <a
+                     href="https://www.freecodecamp.org/learn/responsive-web-design/">/ freecodecamp.org</a></li>
+               <li>Front-End Engineer <a
+                     href="https://www.codecademy.com/learn/paths/front-end-engineer-career-pat"></a>/ codecademy.com
+               </li>
+            </ul>
+         </div>
+      </main>
+      <div class="contact" data-aos="zoom-out-up">
+         <h3><i>Send me a massage</i></h3>
+         <form>
+            <div class="form-group">
+               <label for="name">Your name:</label>
+               <input type="text" id="name" placeholder="Enter your name...">
+            </div>
+
+            <div class="form-group">
+               <label for="email">Your Email:</label>
+               <input type="text" id="email" placeholder="Enter email...">
+            </div>
+
+            <div class="form-group">
+               <label for="text">Your message:</label>
+
+               <textarea id="text" rows="1" cols="19" placeholder="..."></textarea>
+            </div>
+
+            <input class="button" type="submit" value="Send!">
+         </form>
+      </div>
+      <footer style="margin:100px 0px 0px 0px;" class="footer">
+         <p class="footer__year">2022</p>
+         <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
+            <img src="/assets/img_1/logo-rsschool3.png" width="86" height="32" alt="RS School" />
+         </a>
+         <a href="https://github.com/17clouds">mygit</a>
+      </footer>
+   </div>
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+</body>
+
+
+</html>

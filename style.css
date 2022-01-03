@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Yuji+Syuku&display=swap");
+
+@media (max-width: 700px) {
+   .info {
+      display: block;
+      text-align: center;
+   }
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+header {
+   color: #abc1ca;
+}
+.nav__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.nav a {
+   padding: 14px 10px;
+   line-height: 50px;
+   color: rgb(88, 134, 109);
+}
+.nav a:hover {
+   background-color: rgba(147, 162, 187, 0.25);
+   text-decoration: none;
+   border-radius: 7%;
+}
+.nav a:active {
+   color: white;
+   text-decoration: none;
+}
+
+body {
+   background-image: url(/assets/img/5$_1.png), url(/assets/img/5$_2.png), url(/assets/img/cd.png),
+      url(/assets/img/Texture_17.jpg);
+   background-size: cover, cover, cover, cover;
+   background-size: 14em, 17em, 20em, cover;
+   background-repeat: no-repeat, no-repeat;
+   background-position: 23.4% 24.4%, 77% 45%, 20% 74%;
+   background-attachment: scroll, scroll, scroll, fixed;
+
+   color: #c9c9c9;
+   font-size: 15px;
+   font-weight: normal;
+   font-family: "Roboto", cursive;
+}
+
+h3 {
+   color: #7e7f81;
+   margin-bottom: 5px;
+}
+
+main a {
+   color: #ffffff;
+}
+
+a {
+   color: rgb(91, 151, 118);
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.avatar {
+   width: 300px;
+   border-radius: 50%;
+}
+
+.info p {
+   color: #a7a8ac;
+   margin: 0;
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+}
+
+.card {
+   padding: 15px 20px;
+   margin-bottom: 20px;
+   border-radius: 15px;
+   color: rgb(211, 195, 195);
+}
+
+.bg-1 {
+   background: rgba(124, 138, 162, 0.65);
+   mix-blend-mode: color-dodge;
+}
+
+.bg-2 {
+   background: rgba(124, 138, 162, 0.6);
+   mix-blend-mode: color-dodge;
+}
+
+.bg-3 {
+   background: rgba(124, 138, 162, 0.55);
+   mix-blend-mode: color-dodge;
+}
+
+.bg-4 {
+   background: rgba(158, 168, 188, 0.5);
+   mix-blend-mode: color-dodge;
+}
+
+.bg-5 {
+   background: rgba(158, 168, 188, 0.45);
+   mix-blend-mode: color-dodge;
+}
+
+.bg-6 {
+   background: rgba(158, 168, 188, 0.3);
+   mix-blend-mode: color-dodge;
+}
+
+.bg-7 {
+   background: rgba(158, 168, 188, 0.3);
+   mix-blend-mode: color-dodge;
+}
+
+.table td {
+   padding-bottom: 10px;
+}
+
+.table {
+   width: 100%;
+}
+
+.table td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5) {
+   color: #c8c8c9;
+}
+
+.contact {
+   text-align: center;
+   padding: 15px 20px;
+   margin: auto;
+   border-radius: 15px;
+   background: rgba(131, 156, 116, 0.4);
+   /* mix-blend-mode: color-dodge; */
+   width: 50%;
+   align-items: center;
+}
+
+.contact h3 {
+   color: #c9c9c9;
+}
+
+.form-group label {
+   display: block;
+   color: #b9b9b9;
+   font-size: 14px;
+   padding-top: 12px;
+}
+
+.form-group input,
+.form-group textarea {
+   /* width: 100%; */
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   border-bottom: 2px solid rgb(151, 150, 150);
+   color: rgb(255, 255, 255);
+   padding: 4px 0px 10px;
+   outline: none;
+   font-family: inherit;
+}
+
+.button {
+   background-color: #48c92134;
+   padding: 10px 20px;
+   color: rgb(196, 194, 194);
+   border: none;
+   border-radius: 100%;
+   font-family: inherit;
+   cursor: pointer;
+}
+
+.button:hover {
+   opacity: 0.9;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+
+.footer__github {
+   padding-right: 20px;
+}
+
+footer p {
+   color: rgb(196, 196, 196);
+}
+
+footer a {
+   color: rgb(196, 196, 196);
+}
