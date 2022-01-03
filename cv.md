@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>rsschool-cv</title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="rsschool-cv" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://17clouds.github.io/rsschool-cv/cv.html" />
-<meta property="og:url" content="https://17clouds.github.io/rsschool-cv/cv.html" />
-<meta property="og:site_name" content="rsschool-cv" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="rsschool-cv" />
-<script type="application/ld+json">
-{"headline":"rsschool-cv","url":"https://17clouds.github.io/rsschool-cv/cv.html","@type":"WebPage","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/rsschool-cv/assets/css/style.css?v=">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/rsschool-cv/favicon.ico" -->
-
-<!-- end custom head snippets -->
 
   </head>
   <body>
