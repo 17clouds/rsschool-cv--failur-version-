@@ -1,55 +1,53 @@
-<!DOCTYPE html>
-<html>
-<head>
-   <title>CV</title>
-   <meta name="viewport" , width="device-width" , scalable="yes">
-</head>
+# Prosvirnin Dmitrii NikolaevichYana Gurinovich
 
-<body>
-   <h1>Prosvirnin Dmitrii Nikolaevich</h1>
-   <p><strong>Web Developer</strong></p>
-   <hr>
-   <h2><i>About me</i></h2>
-   <img src="C:\Users\01\Desktop\photo_2021-09-27_12-20-05.jpg" width="100px" hight="120px" alt="me">
-   <p>Novice web developer in the frontend direction
-      I have no relevant IT experience
-      I really want to develop in this area
-      I have experience in sales and service
-      At the moment I work as a freelancer in web design</p>
-   <p>Coding taught me to think differently. Gave opportunity to have a better life.</p>
-   <h2>Skills</h2>
-   <table border="1">
-      <tr>
-         <th>Techonolgies</th>
-         <td>HTML</td>
-         <td>CSS</td>
-         <td>JScript</td>
-      </tr>
-      <tr>
-         <th>Ability</th>
-         <td>proactivity</td>
-         <td>effective</td>
-         <td>creativity</td>
-      </tr>
-   </table>
-   <h2>Expirience</h2>
-   <p>
-   <ul>
-      <li>Graduated from college as a jeweler</li>
-      <li>Worked as a freelance web designer</li>
-      <li>Studying to be a web developer at RSSchool</li>
-   </ul>
-   </p>
-   <h2>Languages</h2>
-   <p>Eng level A2</p>
-   <h3><i>Contacts</i></h3>
-   <a href="http://surl.li/anhmr">GitHub</a>
-   <br>
-   <a href="https://instagram.com/17.cloud.s?utm_medium=copy_link">Inst</a>
-   <br>
-   Email: prosvirnin0121@gmail.com
-   <br>
-   Number: 8(952)-363-9759
-</body>
+## Junior Frontend Developer
+Novice web developer in the frontend direction I have no relevant IT experience I really want to develop in this area I have experience in sales and service At the moment I work as a freelancer in web design
 
-</html>
+Coding taught me to think differently. Gave opportunity to have a better life.
+***
+### Contact information
+*  Saint-Petersburg, Russia
+* Email: prosvirnin0121@gmail.com
+* Number: 8(952)-363-9759
+*  Telegram @fackingrxer
+*  Discord 17clouds
+ ***
+### Notable projects 
+https://github.com/17clouds/rssschool-cv
+***
+### Skills
+Techonolgies	HTML	CSS	JScript	React
+Ability	proactivity	effective	creativity	punctuality
+***
+### Code Examples and projectsMy goal 
+Slider
+
+function slidesPlugin(activeSlide = 0) {
+            const slides = document.querySelectorAll('.slide')
+            
+            slides[activeSlide].classList.add('active')
+            
+            for (const slide of slides) {
+            slide.addEventListener('click', () => {
+            clearActiveClasses()
+            slide.classList.add('active')
+            })
+            }
+            function clearActiveClasses() {
+            slides.forEach((slide) => {
+            slide.classList.remove('active')
+            })
+            }
+            }
+            
+            slidesPlugin(2) 
+***
+###Experience
+Worked as a freelance web designer
+Studying to be a web developer at RSSchool
+***
+### Education
+Graduated from college as a jeweler.
+***
+### Languages
+Eng level A2
