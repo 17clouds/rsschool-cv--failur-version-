@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
@@ -155,3 +156,4 @@
     <script>anchors.add();</script>
   </body>
 </html>
+
