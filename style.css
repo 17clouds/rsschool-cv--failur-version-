@@ -39,7 +39,7 @@ header {
 
 body {
    background-image: url(/assets/img/5$_1.png), url(/assets/img/5$_2.png), url(/assets/img/cd.png),
-      url(/assets/img/Texture_17.jpg);
+      url(assets/img/Texture_17.jpg);
    background-size: cover, cover, cover, cover;
    background-size: 14em, 17em, 20em, cover;
    background-repeat: no-repeat, no-repeat;
