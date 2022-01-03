@@ -128,14 +128,16 @@
             <p>Graduated from college as a jeweler.</p>
 
 
-<h3 id="courses">Courses:</h3>
-<ul>
-    <li>JS, CSS, HTML, Git video courses on YouTube </li>
-    <li>JavaScript https://learn.javascript.ru/</li>
-    <li>FreeCodeCamp Responsive Web Design https://www.freecodecamp.org/certification/mrks77/responsive-web-design</li>
-    <li>FreeCodeCamp JavaScript Algorithms and Data Structures https://www.freecodecamp.org/certification/mrks77/javascript-algorithms-and-data-structures</li>
-    <li>Front-End Engineer https://www.codecademy.com/learn/paths/front-end-engineer-career-path</li>
-</ul>
+<h2>Courses:</h2>
+            <ul>
+               <li>JS, CSS, HTML, Git video courses on YouTube </li>
+               <li>JavaScript <a href="https://learn.javascript.ru">/ learn.javascript.ru</a></li>
+               <li>FreeCodeCamp Responsive Web Design <a
+                     href="https://www.freecodecamp.org/learn/responsive-web-design/">/ freecodecamp.org</a></li>
+               <li>Front-End Engineer <a
+                     href="https://www.codecademy.com/learn/paths/front-end-engineer-career-pat"></a>/ codecademy.com
+               </li>
+            </ul>
 
 <hr />
 
