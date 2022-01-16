@@ -1,5 +1,4 @@
-# Prosvirnin Dmitrii NikolaevichYana Gurinovich
-
+# Prosvirnin Dmitrii Nikolaevich
 ## Junior Frontend Developer
 Novice web developer in the frontend direction I have no relevant IT experience I really want to develop in this area I have experience in sales and service At the moment I work as a freelancer in web design
 
