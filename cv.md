@@ -41,7 +41,7 @@ function slidesPlugin(activeSlide = 0) {
             }
             
             slidesPlugin(2) 
-***
+            
 ###Experience
 Worked as a freelance web designer
 Studying to be a web developer at RSSchool
